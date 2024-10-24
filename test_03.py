@@ -21,7 +21,8 @@ def longestIncreasingSubarray(l: list[int]) -> list[int]:
 def main() -> None:
 
     print(longestIncreasingSubarray([1, 2, 1, 2, 3, 1, 2, 3, 4]))
-
+    # OUTPUT:
+    # [1, 2, 3, 4]
 
 if __name__ == '__main__':
     main()
